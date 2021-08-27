@@ -60,7 +60,7 @@ header{
 .nav-link{
     font-size: 1.2rem;
     text-transform: uppercase;
-    color: black;
+    color: white;
     transition: opacity 0.3s;
 }
 
@@ -80,7 +80,7 @@ header{
 .landing-page{
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, #FFC2B4,#FF8882);
+    background-image: linear-gradient(to bottom right, #3B4679,#2B3153);
     position: relative;
     overflow: hidden;
     display: flex;
@@ -113,12 +113,12 @@ header{
 
 .title{
     font-size: 6rem;
-    color: #262A53;
-    margin-bottom: 1rem;
+    color: white;
+    margin-bottom: 5rem;
 }
 
 .description{
-    color: white;
+    color: #929FC5;
     margin-bottom: 2.5rem;
 }
 
@@ -155,6 +155,7 @@ header{
 .rat2{
     filter: hue-rotate(235deg);
     animation: race3 10s forwards;
+    margin-top: 5px;
 }
 
 
