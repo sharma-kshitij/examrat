@@ -194,7 +194,7 @@ header{
         transform: translateX(0);
     }
     to{
-        transform: translateX(250px);
+        transform: translateX(200px);
     }
 }
 @keyframes race3{
