@@ -72,7 +72,7 @@ header{
     display: block;
     font-family: 'Ubuntu', sans-serif;
     font-size: 4rem;
-    color: #f37224;
+    color: #EF4F4F;
 }
 
 /*Main content*/
@@ -80,7 +80,7 @@ header{
 .landing-page{
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, #FDF6F0,#F5C6AA);
+    background-image: linear-gradient(to bottom right, #FFC2B4,#FF8882);
     position: relative;
     overflow: hidden;
     display: flex;
@@ -97,7 +97,7 @@ header{
     background-image: url("./images/bg-pat.png");
     background-size: cover;
     background-repeat: no-repeat ;
-    opacity: 0.1;
+    opacity: 0.4;
     z-index: -1;
 }
 
@@ -108,6 +108,7 @@ header{
 }
 .content-details{
     max-width: 80%;
+
 }
 
 .title{
@@ -117,7 +118,7 @@ header{
 }
 
 .description{
-    color: #929FC5;
+    color: white;
     margin-bottom: 2.5rem;
 }
 
@@ -125,10 +126,10 @@ header{
     display: flex;
 }
 .sm-link{
-    color: #929FC5;
+    color: white;
     width: 3rem;
     height: 3rem;
-    border: 1px solid #929FC5;
+    border: 1px solid white;
     border-radius: 50%;
     display: flex;
     margin-right: 2.5rem;
@@ -139,8 +140,9 @@ header{
 }
 
 .sm-link:hover{
-    background-color: #f37224;
+    background-color: #EF4F4F;
     color: white;
+    border-color:#EF4F4F ;
 }
 
 .rat{
