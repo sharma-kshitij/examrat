@@ -180,7 +180,9 @@ header{
     .image-group{
         margin-top: 10rem;
     }
-
+    html{
+        overflow: hidden;
+    }
     
 }
 
